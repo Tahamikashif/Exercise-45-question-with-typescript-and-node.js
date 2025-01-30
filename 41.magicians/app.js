@@ -1,6 +1,8 @@
-var magicians = ["a haunting we will go magicians", "shahrukh magician", "waffles magicians"];
-function magician(nameofmagician) {
-    return { nameofmagician: nameofmagician };
+"use strict";
+let magicians = ["a haunting we will go magicians", "shahrukh magician", "waffles magicians"];
+function show_magician(nameofmagician) {
+    return { nameofmagician };
 }
-magician("magicians");
+;
+show_magician("magicians");
 console.log(magicians);

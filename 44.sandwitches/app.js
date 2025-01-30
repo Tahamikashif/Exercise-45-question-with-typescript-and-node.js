@@ -1,6 +1,7 @@
-var item_person = ["bread", "mayo", "ketchup"];
+"use strict";
+let item_person = ["bread", "mayo", "ketchup"];
 function provides(name, design, quantity) {
-    return { name: name, design: design, quantity: quantity };
+    return { name, design, quantity };
 }
 console.log(item_person);
 console.log(provides("sandwitch", "triangle", "2"));
